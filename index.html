@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- 
+    SITE 1101 Principles of Information Systems 
+    (c)202X by Name Surname 
+    Submitted in partial fulfillment of the requirements of the course.
+-->
+<html>
+
+<head>
+    <title>Homework 3: How websites work?</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="menu_left">
+                <a href="./index.html" id="a-logo">NEW Y<del style="font-family: inherit;">ORK</del><i
+                        class="asamal">ASAMAL</i></a>
+            </div>
+            <div class="menu_right">
+                <a href="#main" style="color:#ae485e">About our team</a>
+                <a href="./team-members.html">Our team members</a>
+                <a href="./hour-of-code.html">"Hour of Code"</a>
+                <a href="./web-project.html">Website project</a>
+                <a href="./code-artist.html">Code art</a>
+            </div>
+            <div style="width: 198px;"></div>
+        </nav>
+    </header>
+    <main>
+        <div class="logo">
+            <img src="./media/team89_logo.png" alt="Logo" width="500px">
+            <p>NEW Y<del style="font-family: inherit;">ORK</del><i class="asamal" style="font-size: 1.8rem;">ASAMAL</i>
+            </p>
+        </div>
+        <div class="team-info">
+            <div class="team-info-left">
+                <h2 class="team-info-title">About our team</h2>
+                <p class="team-info-text">
+                    Welcome to our website. Our team consists of 4 people: Artoghrul Rashid, Ali Akhundlu, Rustam
+                    Bashirov and Umid Ganbarov. We work as a whole for 3 month already and have completed several projects in our
+                    journey.
+                </p>
+            </div>
+            <div class="team-info-right">
+                <div class="slideshow_container">
+                    <div class="slideshow">
+                        <img src="./media/TeamWithKids.jpg" alt="Kids" class="slide active" id="image0" />
+                        <img src="./media/Team89Suleyman.jpg" alt="Suleyman" class="slide" id="image1" />
+                        <img src="./media/TeamEating.jpg" alt="Eating" class="slide" id="image2" />
+                    </div>
+
+                    <div class="slideshow_buttons">
+                        <button onclick="nextPrevSlide(-1)">&#10094;</button>
+                        <button onclick="nextPrevSlide(1)">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&#169; SITE 1101 Principles of Information Systems Team 89</p>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
